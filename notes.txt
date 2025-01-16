@@ -1,0 +1,21 @@
+Wednesday 22nd January Quiz
+###########################
+
+#include <stdio.h>
+
+int main() {
+
+printf("ASCII of %c is %d" , '\n' , (int)('\n'));
+                 %c prints the first comma %d prints the second comma
+                 %c either takes a command like \n or if more than 1 character is given it returns the last character
+                                      #casting a string to an int returns its ASCII code
+
+    return 0;
+}
+#\n creates new line just like python (newline)
+#\0 is null character
+#\0 is ASCII 0
+
+
+
+
