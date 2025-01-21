@@ -1,3 +1,7 @@
-//
-// Created by erena on 1/17/2025.
-//
+#include <stdio.h>
+
+int main(){
+  printf("Hello, world!");
+
+
+}
