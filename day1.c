@@ -1,21 +1,11 @@
 #include <stdio.h>
+
 int main() {
-    // Write C code here
-    printf("ASCII of %c is %d" , 'j' , (int)('\0'));
-    return 0;
+    float fah;
+    printf("Enter the Fahrneheit\n");
+    scanf("%f", &fah);
+    float cel = (fah-32)*(5/9);
+    printf("celsius= %f\n" , cel);
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
