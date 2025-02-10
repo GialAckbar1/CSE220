@@ -28,7 +28,8 @@ int main(){
 
 
     }
-  if (ans > 0){
+
+  if (ans > 0 || ans < 0){
     printf("ans = %.2f\n",ans);
   }
 
